@@ -1,0 +1,72 @@
+@import "all.css";
+@import'_top-nav.css';
+@import'_top-slider.css';
+@import'_shipping.css';
+
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vaziro,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin: 0;
+}
+@media  (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1340px !important;
+    }
+}
+
+
+                                               /* mobile offer */
+
+.tittle-underline{
+    display: inline;
+    border-bottom: 5px red solid;
+    border-radius: 10px;
+    padding: 5px;
+    /*margin-bottom: 5px;*/
+}
+
+
+                                                       /* footer  */
+
+.news-letter-1 h6{
+    font-size: 18px;
+}
+.news-letter-1 p{
+    font-size: 16px;
+}
+
+.footer-title{
+    border-bottom: 3px solid gray;
+    display: inline;
+    padding: 5px;
+}
+.footer-nav-custom li a{
+    padding-right: 0;
+    font-size: 14px;
+    color: #4e4d4d;
+    transition: .5s ease;
+}
+
+.footer-nav-custom li a:hover{
+    color: red;
+}
+
+.contact-info{
+    font-size: 14px;
+}
+.contact-icon{
+    font-size: 24px;
+    color: darkblue;
+}

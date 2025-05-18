@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>صحفه محصولات</title>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css"
+          integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">-->
+    <link href="product.css" rel="stylesheet">
+    <link href="boots-style.css" rel="stylesheet">
+    <link href="all.css" rel="stylesheet">
+    <link href="owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+</head>
+<body dir="rtl" style="background-color: #f9fafaad">
+
+<!--                                              Start top nav  -->
+<div class="container-fluid bg-top-nav">
+    <div class="row ">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-4 d-none d-md-block">ضمانت ارسال</div>
+                <div class="col-sm-12 col-md-8 d-flex justify-content-center align-items-center">
+                    <nav class="nav custom-top-nav ">
+                        <a class="nav-link text-white border-left" href="#">آدرس فروشگاه</a>
+                        <a class="nav-link text-white border-left" href="#">پیگیری سفارش </a>
+                        <a class="nav-link text-white border-left" href="#">تلفن:09366783050 </a>
+                        <a class="nav-link text-white border-left d-none d-lg-block" href="#"> ضمانت کیفیت</a>
+
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-9">
+                    <div class="input-group ">
+                        <button class="btn btn-secondary dropdown-toggle custom-btn-font-size" data-bs-toggle="dropdown"
+                                type="button">همه دسته بندی ها
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">موبایل </a></li>
+                            <li><a class="dropdown-item" href="#"> کامپیوتر </a></li>
+                            <li><a class="dropdown-item" href="#">پوشاک</a></li>
+                            <li><a class="dropdown-item" href="#"> خانگی</a></li>
+                        </ul>
+                        <input class="form-control" placeholder="بیش از 250 هزار کالا ..." type="text">
+                        <div class="input-group-append">
+                            <button class="btn btn-success custom-btn-font-size" type="button">بگرد</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-3">
+                    <div class="dropdown show">
+                        <a class="btn btn-link text-decoration-none text-white dropdown-toggle border-0 shop-cart"
+                           data-bs-toggle="dropdown" href="#" id="dropdownMenuLink" role="button">
+                            سبد خرید <i class="fas fa-shopping-cart ml-2 "></i>
+                        </a>
+
+                        <div class="dropdown-menu basket">
+                            <a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+                                <img alt="" class="img-thumbnail" src="../keybord.webp">
+                                <ul>
+                                    <li>keyboard</li>
+                                    <li>TSCO</li>
+                                    <li>500,000</li>
+                                </ul>
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </a>
+                            <a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+                                <img alt="" class="img-thumbnail" src="../keybord.webp">
+                                <ul>
+                                    <li>keyboard</li>
+                                    <li>TSCO</li>
+                                    <li>500,000</li>
+                                </ul>
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </a>
+                            <a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+                                <img alt="" class="img-thumbnail" src="../keybord.webp">
+                                <ul>
+                                    <li>keyboard</li>
+                                    <li>TSCO</li>
+                                    <li>500,000</li>
+                                </ul>
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="custom-nav w-100 position-relative">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+                    <a class="navbar-brand mr-5" href="#">فروشگاه</a>
+                    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                            class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                            data-bs-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto custom-navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">خانه </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
+                                   role="button">
+                                    لوازم خانگی
+                                </a>
+                                <div class="dropdown-menu w-75 dropdown-image border-0 shadow custom-dropdown-menu">
+                                    <img alt="" class="d-none d-lg-block" src="../Home-Appliancespng.parspng.com-8.png">
+                                    <div class="container">
+                                        <div class="row w-100">
+                                            <div class="col-sm-12 col-md-12 col-lg-3">
+                                                <ul class="nav flex-column pl-4">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#"><i
+                                                                class="fas fa-angle-left"></i>ماشین لباسشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>یخچال
+                                                            و فریزر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>گاز</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>لوازم
+                                                            صوتی و تصویری</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>مبلمان</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>فرش
+                                                            و موکت</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>ماشین
+                                                            ظرفشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>لوازم
+                                                            ماشین </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-12 col-md-12 col-lg-3">
+                                                <ul class="nav flex-column pl-4">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#"><i
+                                                                class="fas fa-angle-left"></i>ماشین لباسشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>یخچال
+                                                            و فریزر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>گاز</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>لوازم
+                                                            صوتی و تصویری</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>مبلمان</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>فرش
+                                                            و موکت</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>ماشین
+                                                            ظرفشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>لوازم
+                                                            ماشین </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
+                                   role="button">
+                                    لوازم دیجیتال
+                                </a>
+                                <div class="dropdown-menu w-75 dropdown-image border-0 shadow custom-dropdown-menu">
+                                    <img alt="" class="d-none d-lg-block"
+                                         src="../Computer-Accessories-PNG-File-Download-Free.png">
+                                    <div class="container">
+                                        <div class="row w-100">
+                                            <div class="col-sm-12 col-md-12 col-lg-3">
+                                                <ul class="nav flex-column pl-4">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#"><i
+                                                                class="fas fa-angle-left"></i>کامپیوتر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>لپتاپ</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>موبایل</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>لوازم
+                                                            اداری </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>پرینتر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>دوربین
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>پاوربانک
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>هارد
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-12 col-md-12 col-lg-3">
+                                                <ul class="nav flex-column pl-4">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#"><i
+                                                                class="fas fa-angle-left"></i>کامپیوتر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>لپتاپ</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>موبایل</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>لوازم
+                                                            اداری </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>پرینتر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>دوربین
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>پاوربانک
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>هارد
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
+                                   role="button">
+                                    لوازم خودرو
+                                </a>
+                                <div class="dropdown-menu w-75 dropdown-image border-0 shadow custom-dropdown-menu">
+                                    <img alt="" class="d-none d-lg-block"
+                                         src="../—Pngtree—automotive%20engine%20parts_1171755.png">
+                                    <div class="container">
+                                        <div class="row w-100">
+                                            <div class="col-sm-12 col-md-12 col-lg-3">
+                                                <ul class="nav flex-column pl-4">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#"><i
+                                                                class="fas fa-angle-left"></i>چرخ </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>
+                                                            ضبط </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>باند</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>
+                                                            لاستیک </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>جانبی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>
+                                                            روغن </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>
+                                                            ضدیخ</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>هدلایت
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-12 col-md-12 col-lg-3">
+                                                <ul class="nav flex-column pl-4">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#"><i
+                                                                class="fas fa-angle-left"></i>چرخ </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>
+                                                            ضبط </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>باند</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>
+                                                            لاستیک </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>جانبی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>
+                                                            روغن </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link " href="#"><i class="fas fa-angle-left"></i>
+                                                            ضدیخ</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#"><i class="fas fa-angle-left"></i>هدلایت
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">تماس با ما</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">درباره ما</a>
+                            </li>
+                        </ul>
+                        <a class="text-warning text-decoration-none mr-3" href="#">تخفیفات ویژه</a><br>
+                        <!-- Button trigger modal -->
+                        <button class="btn btn-sm btn-link  mt-3 mt-lg-0" data-bs-target="#staticBackdrop"
+                                data-bs-toggle="modal"
+                                type="button">
+                            عضویت
+                        </button>
+
+                        <!-- Modal -->
+                        <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade"
+                             data-bs-backdrop="static"
+                             data-bs-keyboard="false" id="staticBackdrop" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-body " id="staticBackdropLabel">ورود به سایت</h5>
+                                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                type="button"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label class="form-label text-body" for="exampleInputEmail1">آدرس
+                                                    ایمیل</label>
+                                                <input aria-describedby="emailHelp" class="form-control"
+                                                       id="exampleInputEmail1"
+                                                       type="email">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label text-body" for="exampleInputPassword1">رمز
+                                                    عبور</label>
+                                                <input class="form-control" id="exampleInputPassword1" type="password">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input class="form-check-input" id="exampleCheck1" type="checkbox">
+                                                <label class="form-check-label text-body" for="exampleCheck1">مرا به
+                                                    خاطر بسپر</label>
+                                            </div>
+                                            <button class="btn btn-success w-100" type="submit">ورود</button>
+                                        </form>
+                                    </div>
+                                    <!--                                <div class="modal-footer">-->
+                                    <!--                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                    <!--                                    <button type="button" class="btn btn-primary">Understood</button>-->
+                                    <!--                                </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </nav>
+
+
+</div>
+<!--                                                                      End top nav -->
+
+
+<!--                                              Start product details  -->
+<div class="container bg-white">
+    <div class="row">
+        <div class="col-sm-12">
+            <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+                <ol class="breadcrumb bg-white">
+                    <li class="breadcrumb-item"><a href="#">خانه</a></li>
+                    <li aria-current="page" class="breadcrumb-item active">گوشی موبایل</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="container bg-white">
+    <div class="row">
+        <div class="col-sm-12 col-md-5">
+            <img alt="" src="img/mobile%20(6).webp">
+        </div>
+        <div class="col-sm-12 col-md-7 border-left">
+            <h1 class="mt-4 d-flex product-title justify-content-between"><span>گوشی هواوی مدل جدید</span> <span><i
+                    class="far fa-heart"></i> <i class="fa fa-share-alt"></i> <i class="far fa-bell"></i></span></h1>
+            <div class="offers-rating product-page-rate my-3"><i class="fas fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+            <span>( 5  دیدگاه برای این کالا )</span>
+            <div class="offer-price product-page-price mt-2"><s class="mr-3">2.500.000
+                تومان</s><span>900.000 تومان</span></div>
+            <p class="describe my-2 px-3 border-bottom">معرفی اگر به دنبال خرید گوشی هوشمند میان‌رده‌ای هستید که در کنار
+                بهره بردن از مشخصات فنی مناسب و البته قدرتمند، قیمت مقرون به‌صرفه‌ای هم داشته باشد، باید بگوییم که
+                گوشی‌های سری poco شرکت شیائومی می‌توانند انتخاب بسیار مناسبی برای شما باشند. شیائومی Poco X6 5G یکی از
+                میان‌رده جذاب و دوست داشتنی این شرکت است که به نسبت قیمت در نظر گرفته شده، از مشخصات فنی مناسب و قابل
+                قبولی بهره برده است. در نمای رو‌به‌رویی این گوشی به صفحه‌نمایش با ابعاد 6.67 اینچ و رزولوشن 1220×2712
+                پیکسل از نوع امولد با نمایش 446 پیکسل در هر اینچ مجهز شده است. از قابلیت‌های قدرتمند این صفحه‌نمایش
+                می‌توان به نرخ بروزرسانی 120 هرتز و حداکثر روشنایی 1800 نیت (nits) اشاره کرد. با این تفاسیر عملکرد روان
+                و بدون لگ و البته وضوح تصویر بسیار خوبی را از این صفحه‌نمایش حتی زیر تابش مستقیم نور خورشید شاهد خواهید
+                بود.
+            </p>
+            <div class="col-sm-12  m-0 p-0">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5">
+                        <p class="mt-3"> ویژگی های محصول</p>
+                        <ul class="nav flex-column footer-nav-custom my-3 px-3">
+                            <li class="nav-item">
+                                <a class="nav-link pr-0" href="">کیفیت صدای بالا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pr-0" href="">مقاوم در برابر ضریه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pr-0" href="">ارزش خرید بالا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pr-0" href="">گارانتی دو ساله</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-7  d-flex align-items-center">
+                        <form>
+                            <div class="form-group row d-flex justify-content-around ">
+                                <div class="col-sm-12 col-md-7">
+                                    <label class="col-sm-1 " for="tedad"> تعداد </label>
+                                    <input class="col-sm-4 ml-4" id="tedad" type="text" value="1">
+                                </div>
+                                <div class="col-sm-12 col-md-5">
+                                    <button class="btn  btn-success mb-2" type="button"> سبد خرید</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container bg-white">
+    <div class="row">
+        <div class="col-sm-12 mb-5 mt-0 ">
+            <ul class="nav nav-tabs ul-border" id="myTab" role="tablist">
+                <li class="nav-item bc" role="presentation">
+                    <button aria-controls="home" aria-selected="true" class="nav-link active" data-bs-target="#home"
+                            data-bs-toggle="tab" id="home-tab" role="tab" type="button">توضیحات
+                    </button>
+                </li>
+                <li class="nav-item bc" role="presentation">
+                    <button aria-controls="profile" aria-selected="false" class="nav-link" data-bs-target="#profile"
+                            data-bs-toggle="tab" id="profile-tab" role="tab" type="button">نقد و بررسی
+                    </button>
+                </li>
+                <li class="nav-item bc" role="presentation">
+                    <button aria-controls="contact" aria-selected="false" class="nav-link" data-bs-target="#contact"
+                            data-bs-toggle="tab" id="contact-tab" role="tab" type="button">نظرات
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div aria-labelledby="home-tab" class="tab-pane fade show active " id="home" role="tabpanel">
+                    <p class="describe my-2 px-3 border-bottom">معرفی اگر به دنبال خرید گوشی هوشمند میان‌رده‌ای هستید
+                        که در کنار
+                        بهره بردن از مشخصات فنی مناسب و البته قدرتمند، قیمت مقرون به‌صرفه‌ای هم داشته باشد، باید بگوییم
+                        که
+                        گوشی‌های سری poco شرکت شیائومی می‌توانند انتخاب بسیار مناسبی برای شما باشند. شیائومی Poco X6 5G
+                        یکی
+                        از
+                        میان‌رده جذاب و دوست داشتنی این شرکت است که به نسبت قیمت در نظر گرفته شده، از مشخصات فنی مناسب و
+                        قابل
+                        قبولی بهره برده است. در نمای رو‌به‌رویی این گوشی به صفحه‌نمایش با ابعاد 6.67 اینچ و رزولوشن
+                        1220×2712
+                        پیکسل از نوع امولد با نمایش 446 پیکسل در هر اینچ مجهز شده است. از قابلیت‌های قدرتمند این
+                        صفحه‌نمایش
+                        می‌توان به نرخ بروزرسانی 120 هرتز و حداکثر روشنایی 1800 نیت (nits) اشاره کرد. با این تفاسیر
+                        عملکرد
+                        روان
+                        و بدون لگ و البته وضوح تصویر بسیار خوبی را از این صفحه‌نمایش حتی زیر تابش مستقیم نور خورشید شاهد
+                        خواهید
+                        بود.
+                    </p>
+                </div>
+
+                <div aria-labelledby="profile-tab" class="tab-pane fade " id="profile" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+
+                                <h6 class="mt-3 mb-0">طراحی و ظرافت</h6> <br>
+                                <div class="progress mt-0 mb-5">
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" class="progress-bar "
+                                         role="progressbar" style="width: 25%;">25%
+                                    </div>
+                                </div>
+
+                                <h6 class="mt-3 mb-0">مقرون به صرفه</h6> <br>
+                                <div class="progress mt-0 mb-5">
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" class="progress-bar "
+                                         role="progressbar" style="width: 50%;">50%
+                                    </div>
+                                </div>
+
+                                <h6 class="mt-3 mb-0">کیفیت ساخت </h6> <br>
+                                <div class="progress mt-0 mb-5">
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" class="progress-bar "
+                                         role="progressbar" style="width: 80%;">80%
+                                    </div>
+                                </div>
+
+                                <h6 class="mt-3 mb-0">عملکرد</h6> <br>
+                                <div class="progress mt-0 mb-5">
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" class="progress-bar "
+                                         role="progressbar" style="width: 65%;">65%
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="col-sm-12 col-md-6 text-center">
+                                <p class="text-success ">نکات مثبت</p>
+                                <ul>
+                                    <li>سبک</li>
+                                    <li>زیبا</li>
+                                    <li>ارزان</li>
+                                    <li>جدید</li>
+                                </ul>
+                                   <p class="text-danger mt-5">نکات منفی</p>
+                                <ul>
+                                    <li>بدون شارژر</li>
+                                    <li>بدون هندزفری</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div aria-labelledby="contact-tab" class="tab-pane fade" id="contact" role="tabpanel">
+                    <div class="mb-3">
+                        <label class="form-label" for="exampleFormControlInput1">ایمیل خود را وارد کنید</label>
+                        <input class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+                               type="email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="exampleFormControlTextarea1">تجربه خرید شما :</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--                                                                      End product details -->
+
+
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/356f0375f0.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>-->
+<script crossorigin="anonymous"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+<script src="owlcarousel/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+</body>
+</html>
