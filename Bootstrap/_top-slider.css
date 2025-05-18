@@ -1,19 +1,19 @@
-.custom-col-lg-3{
-    flex: 0 0 21%;
-    max-width: 21%;
+.custom-col-lg-3 {
+  flex: 0 0 21%;
+  max-width: 21%;
 }
-@media screen and (max-width: 991px){
- .custom-col-lg-3{
-     flex: 0 0 50%;
-     max-width: 50%;
-     margin-top: 1rem;
-     text-align: center;
- }
-.imgs{
-    width: 60%!important;
+@media screen and (max-width: 991px) {
+  .custom-col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .imgs {
+    width: 60% !important;
+  }
 }
-}
-.imgs{
-    width: 70% !important;
-    height: 40% !important;
+.imgs {
+  width: 70% !important;
+  height: 40% !important;
 }
